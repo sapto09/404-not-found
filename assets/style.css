@@ -94,7 +94,7 @@ footer {
 
 @media (min-width:320px) {
     header,footer {
-        width:320px;
+        width:100%;
         margin: 10px auto;
         text-align: center;
     }
