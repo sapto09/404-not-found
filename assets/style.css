@@ -26,14 +26,18 @@ header {
 
 /* main */
 main {
-    margin-top: 100px;
+    margin-top: 90px;
     font-family: mono-space;
-    display: flex;
-    justify-content: space-around;
     margin-bottom: 150px;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 figure {
-    width: 50%;
+    width: 40%;
+    float: left;
 }
 figure img {
     Width: 540px;
@@ -46,6 +50,7 @@ article{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    float: right;
 }
 article h1 {
     font-family: mono-space-bold;
@@ -57,7 +62,7 @@ article h1 {
     height: 190px;
     color: #333;
     margin-top: -3px;
-    margin-bottom: -6px;
+    margin-bottom: 10px;
 }
 
 article p {
@@ -67,12 +72,13 @@ article p {
     letter-spacing: -3.5%;
     color: #4F4F4F;
     line-height: 38px;
+    margin-bottom: 60px;
 }
 
 article button {
     width: 216px;
     height: 68px;
-    background: #333;
+    background-color: #333;
     color: white;
     cursor: pointer;
     transition: .5s;
@@ -88,18 +94,15 @@ footer {
     text-align: center;
     color: #BDBDBD;
     font-family: sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 30px 10px;
     line-height: 30px;
 }
 
-@media (min-width:320px) {
-    header,footer {
-        width:100%;
-        margin: 10px auto;
-        text-align: center;
+@media(max-width:1000px) {
+    figure, article {
+        width: 100%;
+        padding: 0;
     }
-
-    main {
-        flex-wrap: wrap;
+    header {
+        text-align: center;
     }
 }
