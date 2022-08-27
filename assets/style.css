@@ -10,6 +10,8 @@
     font-family: mono-space-bold;
     src: url(../assets/SpaceMono-Bold.ttf);
 }
+/* body */
+
 /* header */
 header {
     font-family: inconsolata;
@@ -27,20 +29,19 @@ main {
     margin-top: 100px;
     font-family: mono-space;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 150px;
 }
-
-
+figure {
+    width: 50%;
+}
 figure img {
-    Width
-: 539.22px;
-Height
-: 447.43px
+    Width: 540px;
+    Height: 448px;
 }
 
 article{
-    width: 48%;
+    width: 50%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -56,7 +57,7 @@ article h1 {
     height: 190px;
     color: #333;
     margin-top: -3px;
-    margin-bottom: -5px;
+    margin-bottom: -6px;
 }
 
 article p {
@@ -71,7 +72,6 @@ article p {
 article button {
     width: 216px;
     height: 68px;
-    
     background: #333;
     color: white;
     cursor: pointer;
