@@ -105,4 +105,20 @@ footer {
     header {
         text-align: center;
     }
+    main h1 {
+        font-size:3rem;
+    }
+    main p {
+        font-size: 1.5rem;
+    }
+    footer {
+        width: 100%;
+        position: absolute;
+        bottom: -600px;
+        background: rgb(10, 89, 158);
+        height: 30px;
+    }
+    footer p {
+        margin-top: -.1rem;
+    }
 }
