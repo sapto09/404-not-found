@@ -84,7 +84,10 @@ article button:hover {
 
 /* footer */
 footer {
+    height: 30px;
     text-align: center;
     color: #BDBDBD;
     font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 30px 10px;
+    line-height: 30px;
 }
