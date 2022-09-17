@@ -74,6 +74,10 @@ footer {
 
     .col {
         width: 45%;
+        max-width: 600px;
+    }
+    img {
+        max-width: 600px;
     }
     .col p {
         margin: 3em 0;
