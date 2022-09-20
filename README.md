@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://sapto09.github.io/404-not-found/">
+    <a href="https://github.com/sapto09/404-not-found/">
       Solution
     </a>
     <span> | </span>
